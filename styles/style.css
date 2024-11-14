@@ -1,0 +1,78 @@
+code {
+  color: black;
+  background: yellow;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: yellow;
+}
+
+body {
+  background-color: darkred;
+  color: white;
+  display: block;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: block;
+  top: 40%;
+  left: 60%;
+  position: absolute;
+}
+
+.form-container {
+  display: block;
+  top: 50%;
+  left: 28%;
+  position: absolute;
+}
+
+h2 {
+  display: block;
+  top: 39%;
+  left: 25%;
+  position: absolute;
+}
+
+.move {
+  display: block;
+  top: 88%;
+  left: 63%;
+  position: absolute;
+  color: black;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.move2 {
+  display: block;
+  top: 100%;
+  left: 45%;
+  position: absolute;
+  color: black;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+h1 {
+  display: block;
+  top: 0%;
+  left: 34%;
+  position: absolute;
+}
+
+.text {
+  display: block;
+  top: 12%;
+  left: 0%;
+  position: absolute;
+}
