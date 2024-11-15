@@ -97,8 +97,9 @@ app.get("/welcome/:username", (req, res) => {
   res.send(`<h1>Welcome, ${username}!</h1>`);
 });
 
-app.get("/", (req, res) => {
+app.get("/mumbojumbo", (req, res) => {
   res.sendFile(path.join("views", "index.mumbojumbo"));
+  
 });
 
 app.get("/download/:filename", (req, res) => {
